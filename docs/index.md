@@ -1,17 +1,17 @@
-# Welcome to MkDocs
+# 👋 Welcome to fran.sh
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+```bash
+> whoami
+Applied AI/ML Scientist @ JPMorgan
 
-## Commands
+> cat about.txt
+Researching LLMs, graphs, and structured automation.
+This is where my logs, notes, and experiments live.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+> tail -n 3 posts.log
+2025-07-20 | Evaluating Prompt Quality in Production
+2025-07-12 | QA Over Central Bank Speeches with LangGraph
+2025-06-30 | Text Simplification: Real-World Metrics
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+> [Browse Logs](blog/)
+```

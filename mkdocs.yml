@@ -1,1 +1,17 @@
-site_name: My Docs
+site_name: fran.log
+site_url: https://fsilavong.github.io/
+theme:
+  name: material
+  palette:
+    primary: black
+    scheme: slate
+    accent: lime
+  font:
+    text: JetBrains Mono
+    code: JetBrains Mono
+  features:
+    - navigation.instant
+plugins:
+  - blog
+extra_css:
+  - stylesheets/terminal.css
