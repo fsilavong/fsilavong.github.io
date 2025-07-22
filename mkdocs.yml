@@ -23,3 +23,7 @@ nav:
   - index.md
   - Blog:
     - blog/index.md
+extra:
+  analytics:
+    provider: google
+    property: G-M8M680K2JW
