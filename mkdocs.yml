@@ -1,4 +1,4 @@
-site_name: fran.log
+site_name: fran.blog
 site_url: https://fsilavong.github.io/
 theme:
   name: material
@@ -11,7 +11,15 @@ theme:
     code: JetBrains Mono
   features:
     - navigation.instant
+  favicon: images/favicon.svg
 plugins:
   - blog
 extra_css:
   - stylesheets/terminal.css
+markdown_extensions:
+  - codehilite
+  - pymdownx.superfences
+nav:
+  - index.md
+  - Blog:
+    - blog/index.md
