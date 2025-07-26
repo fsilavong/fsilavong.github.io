@@ -9,7 +9,7 @@ title: Welcome
 <div class="terminal-block">
 
 <p><span class="terminal-cmd">&gt; whoami</span><br>
-Applied AI/ML Director @ JPMorgan. Ex-Bloomberg.</p>
+Fran Silavong, Applied AI/ML Director @ JPMorgan. Ex-Bloomberg.</p>
 
 <p><span class="terminal-cmd">&gt; cat about.txt</span><br>
 London Head of NLP and Graph @ J.P. Morgan Chase's Machine Learning Center of Excellence.<br><br>
@@ -22,5 +22,5 @@ This is where I log personal learnings, technical thoughts, and ideas in progres
 2025-06-30 | Text Simplification: Real-World Metrics</p> -->
 
 <p><span class="terminal-cmd">&gt; <a href="blog/">Browse Logs</a></span></p>
-
+<p><span class="terminal-cmd">&gt; <a href="https://www.linkedin.com/in/fran-silavong/">Connect on LinkedIn</a></span></p>
 </div>
