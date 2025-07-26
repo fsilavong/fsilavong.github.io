@@ -7,7 +7,7 @@ theme:
     scheme: slate
     accent: lime
   font:
-    text: JetBrains Mono
+    text: Infer
     code: JetBrains Mono
   features:
     - navigation.instant
@@ -19,6 +19,7 @@ extra_css:
 markdown_extensions:
   - codehilite
   - pymdownx.superfences
+  - attr_list
 nav:
   - index.md
   - Blog:

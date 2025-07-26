@@ -1,13 +1,9 @@
 [project]
-name = "fsilavong-github-io"
+name = "agent"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "mkdocs-material>=9.6.15",
-    "pygments>=2.19.2",
+    "google-adk>=1.8.0",
 ]
-
-[tool.uv.workspace]
-members = ["examples/agent"]
