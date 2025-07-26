@@ -53,7 +53,7 @@ Requirements:
 
 root_agent = Agent(
     name="health_assistant_agent",
-    model="gemini-2.0-flash",
+    model="gemini-2.5-flash",
     description=(
         "Agent to provide basic health advice and medication recommendations."
     ),
