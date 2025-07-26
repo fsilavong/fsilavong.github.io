@@ -25,19 +25,17 @@ You might ask, “Why not just instruct the LLM not to take risky actions?” Th
 
 I have built a simple illustrating example of health assistant that can either tell you to consult a doctor or prescribe you medicine. Despite adding explicit instruction (twice!) to always consult the doctor first, it can be easily bypassed (and I am not a good hacker at all..):
 
-
 <div style="text-align: center;">
-  <img src="/images/jailbreak_session.png" alt="Jailbreak Session"/>
-</div>
-
-<div style="text-align: center;">
+  <p>(1) Safety Instructions Embedded in the Prompt</p>
   <img src="/images/jailbreak_prompt.png" alt="Jailbreak Prompt"/>
 </div>
 
+<div style="text-align: center;">
+  <p>(2) Successfully Bypassed Safety Instruction</p>
+  <img src="/images/jailbreak_session.png" alt="Jailbreak Session"/>
+</div>
 
-Instead of relying on the LLM to execute safety measures via instructions, why not bake them into the architecture? This means building controlled agents — ones that leverage LLMs for perception and language understanding, but introduce strong guarantees through mechanisms like human-in-the-loop oversight or hard-coded constraints or process decomposition to reduce complexity. 
-
-That said, there’s a fine balance to strike between explicitly defining every scenario and allowing the LLM to plan flexibly.  I hope to see better native support of building agentic systems with controllability in popular frameworks, such as `google-adk` (better than extending `BaseAgent`), making it easier to go from Figure (a) to (b) — the shift to *controllable agents*.
+Instead of relying on the LLM to execute safety measures via instructions, why not bake them into the architecture? This means building controlled agents — ones that leverage LLMs for language understanding and small-scale planning, while introducing strong guarantees through mechanisms like human-in-the-loop, hard-coded constraints, and/or explicit routing. That said, there’s a fine balance to strike between explicitly defining every scenario and allowing the LLM to plan flexibly. 
 
 <div style="text-align: center;">
   <img src="/images/autoagent.svg" alt="Auto Agent"/>
@@ -49,3 +47,4 @@ That said, there’s a fine balance to strike between explicitly defining every 
   <img src="/images/controllableagent.svg" alt="Controllable Agent"/>
 </div>
 
+I hope to see better native support of building agentic systems with controllability in popular frameworks, such as `google-adk` (better than extending `BaseAgent`), making it easier to go from Figure (a) to (b) — the shift to *controllable agents*.
