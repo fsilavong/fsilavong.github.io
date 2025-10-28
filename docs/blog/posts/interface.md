@@ -52,7 +52,7 @@ LLMs shorten build cycles from months to days and relaxed our dependence on labe
 - Nothing scales past a handful of use-cases: duplicated components, inconsistent telemetry, hard-to-compare experiments.
 - No closed loop: it’s unclear which prompt/tool change improved what metric for which cohort.
 
-## What good looks like?
+## [What good looks like?](https://syngularai.com/)
 
 - Single conversation surface where users/SMEs can try any agent.
 - Structured feedback primitives (thumbs + reason, rubric scores, error tags, suggested responses, tool/run traces).
