@@ -14,20 +14,20 @@ tags:
 
 * LLMs removed the label bottleneck but not the knowledge bottleneck for industry application
 * Annotation moved from “pre-model” (labels) to “post-model” (prompts, tools, guardrails, evals), but our tooling didn’t.
-* Hypothesis: one shared conversation surface with structured feedback + experiment tracking scales knowledge capture from 1 to 10+ use-cases.
+* Hypothesis: If teams collect feedback for all agents in one place, they’ll improve them faster and scale to 10+ use-cases with the same resources.
 
 ```mermaid
 flowchart LR
     classDef node fill:#111827,stroke:#00bcd4,color:#e5e7eb,rx:12,ry:12,border-width:1.5px;
     classDef edge color:#9ca3af;
 
-    user[User / SME]:::node --> ui[Shared Agent Interface]:::node
+    user[User / SME]:::node --> ui[Chat Interface]:::node
 
-    ui --> A1[Agent A]:::node
+    ui -->|User Message + History| A1[Agent A]:::node
     ui --> A2[Agent B]:::node
     ui --> A3[Agent C]:::node
 
-    A1 --> ui
+    A1 -->|Response + Feedback Schema|ui
     A2 --> ui
     A3 --> ui
 
