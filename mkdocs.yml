@@ -18,8 +18,15 @@ extra_css:
   - stylesheets/terminal.css
 markdown_extensions:
   - codehilite
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed
 nav:
   - index.md
   - Blog:
