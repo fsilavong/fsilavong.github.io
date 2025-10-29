@@ -1,5 +1,5 @@
 ---
-title: Why Your Agents Don’t Lack Models — They Lack Domain Knowledge
+title: If You Need a New UI for Every AI Use Case, You're Doing It Wrong 
 date: 2025-10-28
 tags:
   - LLM Feedback Loop
@@ -10,7 +10,7 @@ tags:
   - Enterprise LLM Deployment
 ---
 
-# The New Bottleneck in Agentic Systems: Domain Knowledge Capture
+# If You Need a New UI for Every AI Use Case, You're Doing It Wrong 
 
 * LLMs removed the label bottleneck but not the knowledge bottleneck for industry application
 * Annotation moved from “pre-model” (labels) to “post-model” (prompts, tools, guardrails, evals), but our tooling didn’t.
