@@ -1,5 +1,5 @@
 ---
-title: If You Need a New UI for Every AI Use Case, You're Doing It Wrong 
+title: The New Bottleneck in Agentic Systems
 date: 2025-10-28
 tags:
   - LLM Feedback Loop
@@ -10,7 +10,7 @@ tags:
   - Enterprise LLM Deployment
 ---
 
-# If You Need a New UI for Every AI Use Case, You're Doing It Wrong 
+# The New Bottleneck in Agentic Systems: Domain Knowledge Capture
 
 * LLMs removed the label bottleneck but not the knowledge bottleneck for industry application
 * Annotation moved from “pre-model” (labels) to “post-model” (prompts, tools, guardrails, evals), but our tooling didn’t.
