@@ -10,7 +10,7 @@ tags:
   - Enterprise LLM Deployment
 ---
 
-# The New Bottleneck in Agentic Systems: Domain Knowledge Capture
+# The New Bottleneck in Agentic Systems: How to best capture domain knowledge
 
 * LLMs removed the label bottleneck but not the knowledge bottleneck for industry application
 * Annotation moved from “pre-model” (labels) to “post-model” (prompts, tools, guardrails, evals), but our tooling didn’t.
@@ -39,7 +39,7 @@ flowchart LR
 
 ## Why Now
 
-LLMs shorten build cycles from months to days and relaxed our dependence on labeled data, but they didn’t eliminate domain knowledge. That expertise still lives in people’s heads and scattered systems. To bridge the gap, developers often spin up one-off pilots (Streamlit, Gradio) to collect feedback. It’s tend to work fine for one use-case, but it falls apart at ten.
+LLMs shorten build cycles from months to days and relaxed our dependence on labeled data, but they didn’t eliminate the need of domain knowledge. That expertise still lives in people’s heads and scattered systems. To bridge the gap, developers often spin up one-off pilots (Streamlit, Gradio) to collect feedback. It’s tend to work fine for one use-case, but it falls apart at ten.
 
 * **New bottleneck**: With models easy to prototype, the constraint is knowledge capture and iteration speed, not training.
 * **Shifted annotation**: What used to happen pre-model (labels) now happens post-model (in prompts, tools, guardrails, and evals), but the tooling hasn’t caught up.
