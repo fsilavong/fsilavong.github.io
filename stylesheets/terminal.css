@@ -1,0 +1,45 @@
+.md-header {
+    display: none !important;
+}
+
+.md-content h1:first-of-type {
+    color: #cccccc;
+}
+
+.md-footer {
+    display: none !important;
+}
+
+.md-typeset pre,
+.md-typeset pre code {
+  white-space: pre-wrap !important;
+  overflow-wrap: break-word !important;
+  word-break: break-word !important;
+  overflow-x: auto !important;
+}
+
+/* Terminal block wrapper */
+.terminal-block {
+    /* background-color: #000; */
+    color: #cccccc;
+    font-family: "JetBrains Mono", monospace;
+  }
+  
+  /* Terminal prompt commands */
+  .terminal-cmd {
+    color: #33ff99;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 0.25rem;
+  }
+  
+  /* Links styled like clickable commands */
+  .terminal-cmd a {
+    color: #33ccff;
+    text-decoration: none;
+  }
+  
+  .terminal-cmd a:hover {
+    text-decoration: underline;
+  }
+  
